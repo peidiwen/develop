@@ -1,0 +1,66 @@
+body{
+    background-color: #f2f3f5;
+    overflow-x: hidden;
+}
+#container{
+    display: inline-block;
+    width: 40%;
+    height: 54%;
+    position:absolute;
+    left: 35%;
+    top: 36.1%;
+    background-color:#f2f4f5;
+    border:1px solid #cceff5;background:#fafcfd;
+    border-radius: 20px;
+    
+}
+/* 滚动条 */
+::-webkit-scrollbar-thumb:horizontal { /*水平滚动条的样式*/
+    width: 4px;
+    background-color: #CCCCCC;
+    -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #fff; /*滚动条的背景颜色*/
+    -webkit-border-radius: 0; /*滚动条的圆角宽度*/
+}
+::-webkit-scrollbar {
+    width: 10px; /*滚动条的宽度*/
+    height: 5px; /*滚动条的高度*/
+}
+::-webkit-scrollbar-thumb:vertical { /*垂直滚动条的样式*/
+    height: 45px;
+    background-color: #999;
+    -webkit-border-radius: 4px;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    border: 2px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover { /*滚动条的hover样式*/
+    height: 50px;
+    background-color: #9f9f9f;
+    -webkit-border-radius: 4px;
+}
+.div{
+    height: 50px;
+    background-color:#2ed31f;
+    margin: 2px;
+}
+button{
+    margin: 0;
+padding: 0;
+border: 1px solid transparent;  
+outline: none;    
+}
+#app{
+    width: 1920px;
+}
+.word{
+    display: inline-block;
+    position: absolute;
+    top: 36.1%;
+    left: 80%;background-color: rgb(218, 214, 214);
+    height: 30px;
+    width: 10%;
+    border-radius: 10px;
+}
